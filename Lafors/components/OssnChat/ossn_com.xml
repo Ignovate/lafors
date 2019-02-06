@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component xmlns="">
+    <name>OssnChat</name>
+    <id>OssnChat</id>
+    <author>Core Team</author>
+    <description>Allow users to chat with each other.</description>
+   
+</component>

@@ -1,0 +1,68 @@
+<?php
+//unused pagebar skeleton when ads are disabled #628 
+if(ossn_is_hook('newsfeed', "sidebar:right")) {
+	$newsfeed_right = ossn_call_hook('newsfeed', "sidebar:right", NULL, array());
+	$sidebar = implode('', $newsfeed_right);
+	$isempty = trim($sidebar);
+} 
+?>
+<div class="row">
+		<?php echo ossn_plugin_view('theme/page/elements/system_messages'); ?>    
+		<div class="ossn-layout-newsfeed">
+			<div class="col-md-2">
+				<!-- <div class="coloum-left ossn-page-contents">
+					<//?php
+						if (ossn_is_hook('search', "left")) {
+						   	$searchleft = ossn_call_hook('search', "left", NULL, array());
+						  		echo implode('', $searchleft);
+						}
+						?>   
+				</div>-->
+			</div>
+			
+			
+				
+			<div class="col-md-6">
+			
+				<div class="newsfeed-middle ossn-page-contents" style="width: 90%;margin-left: 15px;">
+					<?php echo $params['content']; ?>
+				</div>
+			
+			<div class="col-md-3">
+            	<?php if(!empty($isempty)){ ?>
+				<div class="newsfeed-right">
+					<div class="container-fluid">
+ <div class="row">
+    <div class="col-xs-6 col-sm-3" style="align:center;"><a>
+<img src="http://thetalentbook.in/wp-content/uploads/2017/03/acting-1.jpg" alt=""  title="Acting" data-wp-pid="369" onclick="location.href ='http://thetalentbook.in/groups/tag/Acting/'"/></a>
+</div>
+<div class="col-xs-6 col-sm-3" style="align:center;"><a>
+<img src="http://thetalentbook.in/wp-content/uploads/2017/03/adventure-1.jpg" alt=""  title="Adventure" data-wp-pid="369" onclick="location.href ='http://thetalentbook.in/groups/tag/Adventure/'"/></a>
+</div>
+<div class="col-xs-6 col-sm-3" style="align:center;"><a>
+<img src="http://thetalentbook.in/wp-content/uploads/2017/03/crazy-1.jpg" alt=""  title="Crazy" data-wp-pid="369" onclick="location.href ='http://thetalentbook.in/groups/tag/Crazy/'"/></a>
+</div>
+<div class="col-xs-6 col-sm-3" style="align:center;"><a>
+<img src="http://thetalentbook.in/wp-content/uploads/2017/03/laughing-club-1.jpg" alt=""  title="Laughing Club" data-wp-pid="369" onclick="location.href ='http://thetalentbook.in/groups/tag/Laughing Club/'"/></a>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-6 col-sm-3" style="align:center;"><a>
+<img src="http://thetalentbook.in/wp-content/uploads/2017/03/Short-Film-1.jpg" alt=""  title="Short Film" data-wp-pid="369" onclick="location.href ='http://thetalentbook.in/groups/tag/Short Film/'"/></a>
+</div>
+<div class="col-xs-6 col-sm-3" style="align:center;"><a>
+<img src="http://thetalentbook.in/wp-content/uploads/2017/03/Stunt-1.jpg" alt=""  title="Stunt" data-wp-pid="369" onclick="location.href ='http://thetalentbook.in/groups/tag/Stunt/'"/></a>
+</div>
+<div class="col-xs-6 col-sm-3" style="align:center;"><a>
+<img src="http://thetalentbook.in/wp-content/uploads/2017/03/othersall.jpg" alt=""  title="Other Entertainments" data-wp-pid="369" onclick="location.href ='http://thetalentbook.in/groups/tag/Other Entertainments/'"/></a>
+</div>
+</div>                      
+				</div>
+                <?php } ?>
+			</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<?php echo ossn_plugin_view('theme/page/elements/footer');?>
+

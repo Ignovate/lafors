@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component xmlns="">
+    <name>OssnEmbed</name>
+    <id>OssnEmbed</id>
+    <author>Core Team</author>
+    <description>Convert videos links into players into OssnWall.</description>
+   
+</component>

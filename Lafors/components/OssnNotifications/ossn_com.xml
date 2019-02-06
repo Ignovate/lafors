@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component xmlns="">
+    <name>OssnNotifications</name>
+    <id>OssnNotifications</id>
+    <author>Core Team</author>
+    <description>Create a notifications for users.</description>
+   
+</component>

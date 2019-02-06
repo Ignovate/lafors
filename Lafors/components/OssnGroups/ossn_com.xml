@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component xmlns="">
+    <name>OssnGroups</name>
+    <id>OssnGroups</id>
+    <author>Core Team</author>
+    <description>Allow users to create groups.</description>
+   
+</component>

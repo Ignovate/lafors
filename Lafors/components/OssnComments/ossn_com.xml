@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component xmlns="">
+    <name>OssnComments</name>
+    <id>OssnComments</id>
+    <author>Core Team</author>
+    <description>Allow users to comments on the posts.</description>
+</component>

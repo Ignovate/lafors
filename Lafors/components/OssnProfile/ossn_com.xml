@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component xmlns="">
+    <name>OssnProfile</name>
+    <id>OssnProfile</id>
+    <author>Core Team</author>
+    <description>Allow users create a profile.</description>
+  
+</component>

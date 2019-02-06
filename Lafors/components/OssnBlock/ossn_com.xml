@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component xmlns="">
+    <name>OssnBlock</name>
+    <id>OssnBlock</id>
+    <author>Core Team</author>
+    <description>Allow users to block each other.</description>
+    
+</component>
